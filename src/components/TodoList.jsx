@@ -6,9 +6,8 @@ export const TodoList = () => {
   return (
     <ul>
       {
-        todos.map(todo => <TodoItem key={todo.id} 
-          removeTodo={removeTodo}
-          toggleTodoComplete={toggleTodoComplete}
+        todos.map(todo => 
+          <TodoItem key={todo.id} 
           {...todo}/>)
       }
     </ul>
