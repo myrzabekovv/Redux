@@ -1,0 +1,18 @@
+ul {
+  list-style: none;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.delete {
+  color: red;
+  cursor: pointer;
+}
+input:checked + span {
+  text-decoration: line-through;
+}
